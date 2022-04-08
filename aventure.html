@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        defer></script>
+    <script src="aventure.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Partons à l'aventure</title>
+</head>
+
+<body>
+    <header>
+        <h1>Partons à l'aventure</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Mise en situation</h2>
+            <p>Vous vous réveillez après une courte nuit de sommeil agité; vaincre la horde sauvage ne fut pas une tâche
+                facile pour la troupe de son altesse Sarakonor et il en a fallu de peu pour que Kalrise n’y passe lui
+                aussi
+                tout comme le grand archimage Téwussan. La troupe décide donc de laisser les événements de la veille
+                derrière elle et vous reprenez votre chemin avec le soleil derrière vous en direction des sombres marais
+                de
+                Hutt’äva, par delà les landes hostiles de la Hèrcéènne. Tranquillement se dessine une fourche, la
+                croisée
+                des chemins, où un fin mendiant, Miles, vous quémande afin de payer son droit de passage vers la grande
+                cité
+                maudite.
+                Votre équipement actuel :
+            </p>
+        </section>
+
+        <section>
+            <h2>Liste d'items acheté</h2>
+
+            <table class="bandes">
+                <thead>
+                    <tr>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Bonus défense</th>
+                        <th scope="col">Bonus attaque</th>
+                        <th scope="col">Coût</th>
+                    </tr>
+                </thead>
+                <tbody id="tableauItemsAchetes">
+                    <!-- Les items vont ici -->
+                </tbody>
+            </table>
+
+            <p>Argent restante dans votre bourse : <span id="argentPersonnage"></span></p>
+
+        </section>
+
+        <div>
+            <a href="payer.html"><button id="payerTaxe" class="btn btn-primary">Payer la taxe</button></a>
+            <a href="InjurierMendiant.html"><button id="injurierMendiant" class="btn btn-primary">Injurier le
+                    mendiant</button></a>
+            <a href="passerPont.html"><button id="passerPont" class="btn btn-primary">Passer le pont</button></a>
+        </div>
+        <!--Retourner à la page précédante-->
+        <a href="index.html"><button id="Retourner" class="btn btn-secondary">Retourner</button></a>
+    </main>
+
+</body>
+
+</html>
