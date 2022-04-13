@@ -6,7 +6,7 @@ function afficherCours(listeCours) {
     listeCours.forEach(cours => {
         $('#cours').append(`<option value="${cours.code}">${cours.code} ${cours.nom}</option>`)
         $('#CoursOfferts').append(`
-            <li class="card col-4 me-2">
+            <li class="card col-4 me-2 mb-2">
                 <div class="card-body">
                     <!-- Code et titre du cours -->
                     <h3 class="card-title" id="Title">${cours.code} ${cours.nom}</h3>
