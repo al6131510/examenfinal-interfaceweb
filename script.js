@@ -48,7 +48,7 @@ $('form').submit(function (event) {
     let $descriptionCours = $('#desc').val();
     event.preventDefault(event);
     if ($descriptionCours.includes($codeCours)) {
-        const cours = new Cours($nomCours, $codeCours, $descriptionCours);
+        const cours = new Cours($codeCours, $nomCours, $descriptionCours);
         listeCours.push(cours);
         $('.list-group').append(`<li class="list-group-item">${cours.code} ${cours.nom}</li>`);
         $('#erreurDescription').addClass('d-none');
