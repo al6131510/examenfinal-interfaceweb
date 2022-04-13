@@ -1,0 +1,13 @@
+[{
+  "code": "420-3P2-HU",
+  "nom": "Interfaces web ",
+  "description": "Ce premier bloc de 75 heures est dédié à la compréhension et la réalisation de la partie cliente d'un site web à partir d'un devis et d'une maquette conceptuelle. L'étudiante ou l'étudiant sera amené à proposer une interface fonctionnelle et fluide correspondant au devis et à la maquette. Une conscientisation à l'expérience client doit être une priorité."
+}, {
+  "code": "420-FCC-HY",
+  "nom": "Introduction à l'informatique",
+  "description": "Ce cours est dispensé à la première session du programme « A.E.C. LCA.83 Finance et comptabilité informatisée ». Il est d’une durée de 45 heures et couvre les logiciels : Windows, Word, Outlook, PowerPoint ainsi que les réseaux informatiques. L’utilisation de base de l’infonuagique et d’Excel sera aussi abordée."
+}, {
+  "code": "420-222-HU",
+  "nom": "Documentation multimédia",
+  "description": "Ce cours est dispensé à la deuxième session du programme « A.E.C. LEA.54 Architecture et gestion de réseaux ». Il est d’une durée de 60 heures et a comme objectif de former les étudiantes et les étudiants en méthodes de production et de gestion de ressources documentaires multimédia et web pour usage intra et extra entreprise.\nÀ la fin de ce cours, l’étudiante ou l’étudiant sera en mesure de réaliser un site web multimédia dynamique."
+}]
